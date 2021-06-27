@@ -1,0 +1,48 @@
+h1 {
+  background-color: red;
+  background-size: 100px, 500px;
+  font-size: 35;
+  color: white;
+  margin: 0;
+}
+
+h2 {
+  background-color: white;
+  font-size: 20;
+  color: black;
+  margin: 0;
+  float: right
+}
+
+body {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+  justify-content: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
