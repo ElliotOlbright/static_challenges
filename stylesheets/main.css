@@ -46,3 +46,16 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
